@@ -1,0 +1,22 @@
+<!-- File pages/economic-calendar.shtml -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+    <!-- Menyertakan header -->
+    <!--#include virtual="../components/header.shtml"-->
+
+    <main>
+        <h1>Ini Halaman Economic Calender</h1>
+        <p>Ini adalah halaman tentang economic calendar yang lebih rinci...</p>
+    </main>
+
+    <!-- Menyertakan footer -->
+    <!--#include virtual="../components/footer.shtml"-->
+</body>
+</html>
