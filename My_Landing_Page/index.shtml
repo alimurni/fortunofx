@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <!-- Menyertakan header -->
+    <!--#include virtual="components/header.shtml"-->
+
+    <!-- Sekilas tentang setiap section, bisa menambahkan tautan ke halaman detail -->
+    <section id="intro">
+        <div>
+            <h2>Masuk Telegram Kami</h2>
+            <p>Silahkan masuk telegram kami...</p>
+            <a href="pages/telegram.shtml">Lihat Telegram</a>
+        </div>
+
+        <div>
+            <h2>Periksa Economic Calendar</h2>
+            <p>Penjelasan singkat tentang kami...</p>
+            <a href="pages/economic-calendar.shtml">Baca Selengkapnya</a>
+        </div>
+        
+        <div>
+            <h2>VVIP</h2>
+            <p>Halaman VVIP</p>
+            <a href="pages/vvip.shtml">VVIP</a>
+        </div>
+    </section>
+
+    <!-- Menyertakan footer -->
+    <!--#include virtual="components/footer.shtml"-->
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

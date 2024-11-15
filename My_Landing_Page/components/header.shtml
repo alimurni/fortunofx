@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/my_landing_page/assets/css/main.css">
+    <title>Header</title>
+</head>
+<body>
+    <header class="video-header">
+        <!-- Video background -->
+        <div class="video-container">
+            <video autoplay loop muted playsinline class="background-video">
+                <source src="/my_landing_page/assets/videos/hero-video.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </div>
+
+        <!-- Konten navigasi dan logo di atas video -->
+        <div class="container overlay">
+            <div class="logo">
+                <a href="/my_landing_page/index.shtml">
+                    <img src="/my_landing_page/assets/images/logo.png" alt="Logo" />
+                </a>
+            </div>
+
+            <!-- Navbar -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/my_landing_page/index.shtml">Beranda</a></li>
+                    <li><a href="/my_landing_page/pages/telegram.shtml">Telegram</a></li>
+                    <li><a href="/my_landing_page/pages/economic-calendar.shtml">Economic Calendar</a></li>
+                    <li><a href="/my_landing_page/pages/VVIP.shtml">VVIP</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk Telegram</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <!--#include virtual="../components/header.shtml" -->
+
+    <!-- Section Layanan -->
+    <section id="services">
+        <h2>Masuk Telegram Kami</h2>
+        <p>Kami menyediakan berbagai layanan untuk membantu Anda mencapai tujuan Anda dengan solusi terbaik.</p>
+        
+        <div class="service-cards">
+            <!-- Layanan 1 -->
+            <div class="service-card">
+                <h3>Konsultasi Bisnis</h3>
+                <p>Kami menawarkan konsultasi profesional untuk membantu Anda mengembangkan bisnis yang efektif dan efisien.</p>
+            </div>
+            
+            <!-- Layanan 2 -->
+            <div class="service-card">
+                <h3>Pengembangan Website</h3>
+                <p>Tim kami siap membantu Anda dalam merancang dan mengembangkan website yang sesuai dengan kebutuhan bisnis Anda.</p>
+            </div>
+            
+            <!-- Layanan 3 -->
+            <div class="service-card">
+                <h3>Pemasaran Digital</h3>
+                <p>Kami membantu Anda meningkatkan visibilitas online dan menarik lebih banyak pelanggan melalui strategi pemasaran digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!--#include virtual="../components/footer.shtml" -->
+
+</body>
+</html>
