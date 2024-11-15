@@ -9,9 +9,9 @@
 <body>
 
     <!-- Menyertakan header -->
-    <!--#include virtual="components/header.html"-->
+    <div id="header"></div> <!-- Tempat header dimuat oleh JavaScript -->
 
-    <!-- Sekilas tentang setiap section, bisa menambahkan tautan ke halaman detail -->
+    <!-- Sekilas tentang setiap section -->
     <section id="intro">
         <div>
             <h2>Masuk Telegram Kami</h2>
@@ -33,7 +33,23 @@
     </section>
 
     <!-- Menyertakan footer -->
-    <!--#include virtual="components/footer.html"-->
+    <div id="footer"></div> <!-- Tempat footer dimuat oleh JavaScript -->
+
+    <script>
+        // Memuat file header.html
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        // Memuat file footer.html
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
 
     <script src="assets/js/main.js"></script>
 </body>
