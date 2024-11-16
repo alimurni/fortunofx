@@ -16,7 +16,7 @@
         <div>
             <h2>Masuk Telegram Kami</h2>
             <p>Silahkan masuk telegram kami...</p>
-            <a href="/pages/telegram.html">Lihat Telegram</a>
+            <a href="pages/telegram.html">Lihat Telegram</a>
         </div>
 
         <div>
@@ -28,7 +28,7 @@
         <div>
             <h2>VVIP</h2>
             <p>Halaman VVIP</p>
-            <a href="/pages/vvip.html">VVIP</a>
+            <a href="pages/vvip.html">VVIP</a>
         </div>
     </section>
 
@@ -44,7 +44,7 @@
             });
 
         // Memuat file footer.html
-        fetch('/components/footer.html')
+        fetch('components/footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
