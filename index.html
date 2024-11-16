@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
 </head>
 <body>
 
@@ -16,19 +16,19 @@
         <div>
             <h2>Masuk Telegram Kami</h2>
             <p>Silahkan masuk telegram kami...</p>
-            <a href="pages/telegram.html">Lihat Telegram</a>
+            <a href="../pages/telegram.html">Lihat Telegram</a>
         </div>
 
         <div>
             <h2>Periksa Economic Calendar</h2>
             <p>Penjelasan singkat tentang kami...</p>
-            <a href="pages/economic-calendar.html">Baca Selengkapnya</a>
+            <a href="../pages/economic-calendar.html">Baca Selengkapnya</a>
         </div>
         
         <div>
             <h2>VVIP</h2>
             <p>Halaman VVIP</p>
-            <a href="pages/vvip.html">VVIP</a>
+            <a href="../pages/vvip.html">VVIP</a>
         </div>
     </section>
 
@@ -44,13 +44,13 @@
             });
 
         // Memuat file footer.html
-        fetch('components/footer.html')
+        fetch('../components/footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
             });
     </script>
 
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
